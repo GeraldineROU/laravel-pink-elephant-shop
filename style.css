@@ -1,0 +1,260 @@
+body {
+  background-color: #ffbfc0;
+  padding: 5rem;
+  font-family: "roboto";
+  /* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    padding: 1rem;
+  } */
+}
+
+h2 {
+  font-family: "roboto";
+  margin-bottom: 2rem;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: "poetsen one";
+  color: #9c6264;
+  font-size: 4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav button,
+#boutonContact,
+#boutonSous {
+  border-color: #be8183;
+  height: 4vh;
+  border-radius: 25px;
+  background-color: #be8183;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav button:hover {
+  background-color: #ff5449;
+}
+
+/* Accueil */
+
+.explorer {
+  height: 20vh;
+  align-self: flex-end;
+}
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ernest {
+  width: 45vw;
+}
+.imgErnest {
+  display: flex;
+  font-size: 1vw;
+}
+.logoSite {
+  width: 30vw;
+}
+.story {
+  /* width: 40vw; */
+  font-size: 1.5vw;
+}
+.story2 {
+  width: 40vw;
+  font-size: 1.5vw;
+}
+.chavant {
+  width: 40vw;
+}
+.history2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.logo {
+  width: 10vw;
+  margin-left: 1vh;
+  border-radius: 50%;
+}
+
+.partner {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1vh;
+}
+.partner a {
+  height: 10vw;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+/* A propos */
+
+.photoProfil:hover {
+  transform: scale(1.25);
+}
+
+.photoProfil {
+  width: 10rem;
+  border-radius: 15%;
+}
+
+#equipe {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portrait {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#presentation {
+  margin-top: 5rem;
+}
+
+/* Nos Partenaires */
+
+.linksPartners {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+  margin-top: 5vh;
+}
+
+.linksPartners a {
+  width: 10vw;
+}
+
+.linksPartners div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.linksPartners p {
+  width: 30vw;
+}
+
+/* Nous contacter */
+
+#boutonContact:hover {
+  background-color: #ff5449;
+}
+
+#boutonContact:active {
+  background-color: #c9184a;
+}
+
+#boutonSous:hover {
+  background-color: #ff5449;
+}
+
+#boutonSous:active {
+  background-color: #c9184a;
+}
+form {
+  text-align: center;
+}
+form textarea{
+  width:50vw;
+  height:20vh;
+  margin-top: 1vh;
+}
+.contact{
+  margin-top:2vh;
+}
+.contact p{
+  margin-top:0;
+  margin-bottom:0;
+  text-align:center;
+}
+.formMsg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formMsg input{
+  width: 20vw;  
+}
+#boutonContact{
+  width: 5vw;
+  align-self: center;
+}
+/* MediaQueries taille portable */
+@media (max-width: 455px) {
+  .imgErnest {
+    width: 100%;
+  }
+  .logoSite {
+    height: 10vh;
+  }
+  .explorer {
+    height: 10vh;
+  }
+  .ernest {
+    height: 10vh;
+  }
+  .story p {
+    font-size: 4vw;
+  }
+  .story2 p {
+    font-size: 4vw;
+  }
+  .rock {
+    height: 20rem;
+  }
+
+  .linksPartners div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    width: 40vw;
+    margin-left: 0;
+  }
+  .linksPartners p {
+    width: 90vw;
+  }
+  .linksPartners a {
+    width: 40vw;
+  }
+  .partner img {
+    width: 20vw;
+  }
+  nav button{
+    font-size: 3.5vw
+  }
+ /* Contact */
+  form textarea{
+    width:85vw;
+    height:20vh;
+  }
+  #boutonContact{
+    width: 15vw;
+    align-self: center;
+  }
+}
+/* Media Queries taille tablette */
+@media (min-width: 456px) and (max-width: 768px) {
+
+#boutonContact{
+  width: 10vw;
+  align-self: center;
+}
+}
